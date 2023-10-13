@@ -5,14 +5,15 @@
   $booleano = false;
 
   // Forma recomendada de concatenar
-  echo 'Hola ' . $nombre;
+  echo 'Hola ' . $nombre . "\n";
 
   // Problemas de seguridad
-  echo "Hola $nombre";
+  echo "Hola $nombre \n";
 
   // Obtener tipo de dato
-  echo gettype($decimal);
+  echo gettype($decimal) . "\n";
 
-  //Constante
-  
+  //Constante, su valor no podrá cambiar
+  define('PI', 3.1416);
+  echo PI . "\n";
 ?>
