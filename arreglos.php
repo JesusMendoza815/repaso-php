@@ -31,4 +31,12 @@
   foreach ($numeros as $key => $value) {
     echo $value."\n";
   }
+
+  // Algunas funciones
+  $valores = array(1,2,3);
+
+  // echo join(" -°- ", $valores)
+  // array_reverse();
+  // array_pop()
+  print_r($valores);
 ?>
