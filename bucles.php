@@ -11,4 +11,10 @@
     echo $limite.": while\n";
     $limite++;
   }
+
+  // Foreach
+  $arreglo = array("Juan", 1, false, 3.3);
+  foreach ($arreglo as $key => $value) {
+    echo $value."\n";
+  }
 ?>
